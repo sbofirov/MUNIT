@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
          libjpeg-dev \
          libpng-dev \
          axel \
+         imagemagick \
          zip \
          unzip
 RUN wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh -P /tmp
